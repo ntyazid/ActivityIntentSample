@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.aksaramaya.activity.IntentActivity">
+
+    <Button
+        android:id="@+id/btn_open_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_google_com"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_whats_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_whatsapp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_display_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/display_contact_list"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_dial_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dial_phone"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_broadcast_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/broadcast_message"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_start_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_service"
+        android:textAllCaps="false" />
+
+</LinearLayout>
